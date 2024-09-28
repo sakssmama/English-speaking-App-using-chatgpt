@@ -1,3 +1,5 @@
+package com.example.englishlearningapp;
+
 import android.Manifest;
 import android.content.pm.PackageManager;
 import android.media.MediaPlayer;
@@ -6,10 +8,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
+
+import com.example.micrecording.R;
+
 import java.io.IOException;
+
 
 public class MainActivity extends AppCompatActivity {
 
